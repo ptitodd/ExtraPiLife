@@ -14,7 +14,7 @@ class Screamer:
 		# clear the screen of the mouse using unclutter
 		os.system('unclutter &')
 
-	def stimuate(self):
+	def stimulate(self):
 		# create some light scenes to be used for our bulbs HUE 0 is red, SAT defines saturation of colour 0 being white
 		lightStrobeOn = {'tansitiontime' : 0, 'on' : True, 'bri' : 254, 'hue' : 0 , 'sat' : 0}
 		lightStrobeOff = {'transitiontime' : 0, 'on' : False, 'bri' : 254, 'hue' : 0, 'sat' : 0}
