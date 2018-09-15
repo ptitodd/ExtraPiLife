@@ -54,7 +54,7 @@ class Screamer:
 		# fade lights to red
 		self.__bridge.set_light( [11,12,15] , lightFadeRed)
 
-	def __selectVideo():
+	def __selectVideo(self):
 		# randomly select a startle video
 		videos = ['Boo1.mp4', 'Boo2.mp4', 'Boo3.mp4', 'Boo4.mp4', 'Boo5.mp4']
 		return random.choice(videos)
