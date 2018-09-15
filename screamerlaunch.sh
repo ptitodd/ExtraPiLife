@@ -1,6 +1,5 @@
 #!/bin/sh
 # screamerlaunch.sh
-# a script that makes our raspberry pi into a screaming mat
+# a script that makes the raspberry pi philips hue react to http 200 events
 
-sleep 10
-sudo python /home/pi/switch.py
+sudo python /home/pi/extraLifeScreamer.py screamer
