@@ -7,6 +7,7 @@ The DonationService then makes the same request with that etag etag as the value
 **NOTE: Because it needs to configure the endpoint and get the etag on setup, the earliest an event will trigger is 15 seconds after the initial run of the program, debug or not.**
 
 # Dependencies
+Python 3.6 - For Raspberry Pi follow - https://liftcodeplay.com/2017/06/30/how-to-install-python-3-6-on-raspbian-linux-for-raspberry-pi/
 PHUE Python Library for Phillips Hue Light Bulbs - https://github.com/studioimaginaire/phue
 
 ## Debug Mode
