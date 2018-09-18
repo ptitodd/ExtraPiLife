@@ -8,6 +8,7 @@ The DonationService then makes the same request with that etag etag as the value
 
 # Dependencies
 Python 3.6 - For Raspberry Pi follow - https://liftcodeplay.com/2017/06/30/how-to-install-python-3-6-on-raspbian-linux-for-raspberry-pi/
+
 PHUE Python Library for Phillips Hue Light Bulbs - https://github.com/studioimaginaire/phue
 
 ## Debug Mode
